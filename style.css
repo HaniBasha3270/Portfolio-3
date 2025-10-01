@@ -49,9 +49,11 @@ body {
 }
 
 /* Mobile Menu */
-#checkbox, .menu {
+#checkbox,
+.menu {
   display: none;
 }
+
 #home {
   display: flex;
   align-items: center;
@@ -81,16 +83,17 @@ body {
     display: none;
   }
 
-  #checkbox:checked ~ .navbar {
+  #checkbox:checked~.navbar {
     display: flex;
   }
-  #home img {
-  width: 350px;
-  border-radius: 50%;
-  border: 5px solid #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 
-}
+  #home img {
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
+  }
 }
 
 /* Hero / Home Section */
@@ -99,7 +102,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 4rem 8%;
-  background: linear-gradient(135deg, #00adb5, #393e467a,#11111100, #00acb500),url(Pasted\ image.png);
+  background: linear-gradient(135deg, #00adb5, #393e467a, #11111100, #00acb500), url(Pasted\ image.png);
   /* background-image: url(Pasted\ image.png); */
   background-repeat: no-repeat;
   background-position: right;
@@ -126,7 +129,7 @@ body {
   width: 350px;
   border-radius: 50%;
   border: 5px solid #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   margin-left: 150%;
   margin-top: -50%;
 }
@@ -135,7 +138,7 @@ body {
 #about {
   padding: 4rem 20%;
   text-align: center;
-  background-color: #a7a8e7;
+  background-color: #020466;
   background: linear-gradient(135deg, #00adb5, #393e46e3);
   height: 100vh;
   color: aliceblue;
@@ -144,7 +147,7 @@ body {
 
 #about h2 {
   font-size: 2rem;
-  color: #00adb5;
+  color: #f5dc6e;
   margin-bottom: 1rem;
 }
 
@@ -166,7 +169,7 @@ body {
 .p1 {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   text-align: center;
   transition: transform 0.3s;
@@ -196,10 +199,13 @@ body {
   display: flex;
   flex-direction: column;
   background: linear-gradient(135deg, #00adb5, #393e46e3);
+  color: white;
 }
-.blog{
+
+.blog {
   align-items: center;
   width: 100vh;
+  color: wheat;
 }
 
 .B-img {
@@ -208,18 +214,22 @@ body {
   display: flex;
   gap: 1.5rem;
   margin-top: 2rem;
+
 }
 
 .b1 {
-  width: 100vh;
+  width: 50vh;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   transition: transform 0.3s;
+  background-color: #f1f1f1;
+  color: rgb(12, 12, 100);
+
 }
 
 .b1 img {
- 
+
   border-radius: 10px;
   margin-bottom: 1rem;
   background-color: #0e0707;
@@ -256,7 +266,7 @@ body {
   color: aliceblue;
 }
 
-#contact input, 
+#contact input,
 #contact textarea {
   padding: 0.7rem;
   border: none;
@@ -286,4 +296,3 @@ body {
 .social a:hover {
   color: #fff;
 }
-
