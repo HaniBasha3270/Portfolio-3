@@ -90,7 +90,7 @@ body {
       #11111100,
       #00acb500
     ),
-    url("profile.jpeg");
+    url("Pasted\ image.png");
   background-repeat: no-repeat;
   background-position: right;
   color: #0e0707;
@@ -185,12 +185,15 @@ body {
   flex-direction: column;
   background: linear-gradient(135deg, #00adb5, #393e46e3);
   color: white;
+  height: 100vh;
+  text-align: center;
 }
 
 .blog {
   align-items: center;
   width: 100%;
   color: wheat;
+  justify-content: center;
 }
 
 .B-img {
@@ -198,6 +201,7 @@ body {
   gap: 1.5rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .b1 {
@@ -231,12 +235,15 @@ body {
   justify-content: space-between;
 }
 
+
 #contact form {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   width: 100%;
   max-width: 400px;
+  align-items: center;
+  
 }
 
 #contact input,
@@ -244,8 +251,9 @@ body {
   padding: 0.7rem;
   border: none;
   border-radius: 8px;
-  background: #222;
-  color: #f1f1f1;
+  background: #f1f1f1;
+  color: #222;
+  align-items: center;
 }
 
 #contact input[type="submit"] {
@@ -254,10 +262,27 @@ body {
   cursor: pointer;
   font-weight: 600;
   transition: 0.3s;
+  display: grid;
+  
 }
+#tact {
+
+  text-align: center;
+  background-color: #37444e;
+  color: #ffffff;
+  
+}
+
 
 #contact input[type="submit"]:hover {
   background: #019197;
+}
+#footer {
+  text-align: center;
+  padding: 1rem;
+  background: #37444e;
+  color: #fff;
+  font-size: 0.9rem;
 }
 
 .social a {
@@ -270,3 +295,4 @@ body {
 .social a:hover {
   color: #fff;
 }
+
